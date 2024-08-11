@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,
+    minmax(200px, 1fr));
+  grid-gap: 10px
+}
+.headingLabel{
+  color: red;
+  font-size: 2rem;
+}
+
+.sign{
+  color: red;
+}
+.backHome{
+  color: #dc134f;
+  background: #8065682e;
+}
+a, u {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.buttonSign{
+  margin: 20px;
+  height: 30px;
+  width: 15rem;
+}
+.searchInput{
+  height: 2rem;
+  width: 40%;
+  margin: 2rem;
+}
+.yearMovie:hover{
+  background-color: #c4550b;
+}
+.imgCard{
+  width: 8rem;
+  height: 18rem;
+}
+.imgCardDetails{
+  width: 14rem;
+  height: 18rem;
+}
+.userName{
+  font-weight: 500;
+}
+.logout{
+  background: #a40e0e;
+  color: white;
+  width: 5rem;
+  margin-left: 1rem;
+}
+.sortSelect{
+  height: 2.3rem;
+  width: 6rem;
+  margin: 2rem;
+  border-radius: 6px;
+}
+.align-center{
+  display: flex;
+}
+.col-item{
+  width: 100%;
+}
+.marL15{
+  margin-left: 33%;
+}
+.favCheckbox{
+  float: left;
+}
+.movie-card-details{
+  width: 15rem;text-align: left;
+}
+.favIcon{
+  width: 1.4rem;
+  height: 1.5rem;
+  float: left;
+}
+.grid>div {
+  font-size: 20px;
+  padding: 1rem;
+  color: #ffff;
+  text-align: center;
+  background: #4d3b3b;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
